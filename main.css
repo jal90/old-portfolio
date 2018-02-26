@@ -2,6 +2,14 @@ a {
   color: white;
   margin: 15px;
   margin-left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+a:hover {
+  color: rgb(134, 156, 214);
+  text-decoration: none;
 }
 
 body {
@@ -9,21 +17,29 @@ body {
   background-image: url(./images/woood2.jpg);
   background-size: cover;
   color: white;
+  width: 100%;
 }
 
 h1 {
   text-align: center;
 }
 
-.nav-right {
+.navbar {
   /* background-color: #000; */
   text-align: right;
   padding-left: 0;
+  padding-right: 0;
 }
 
 .about {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
+}
+
+.name {
+  font-size: 1.7em;
+  padding: 5px;
+  margin-left: 60px;
 }
 
 img {
@@ -40,4 +56,9 @@ img {
 
 p {
   text-align: center;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
 }
