@@ -15,6 +15,7 @@ a:hover {
 body {
   background: #aaa;
   background-image: url(./images/woood2.jpg);
+  background-attachment: fixed;
   background-size: cover;
   color: white;
   width: 100%;
@@ -22,6 +23,7 @@ body {
 
 h1 {
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .navbar {
@@ -32,6 +34,21 @@ h1 {
 }
 
 .about {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.left {
+  text-align: center;
+  padding: 50px;
+}
+
+.right {
+  text-align: center;
+  padding: 50px;
+}
+
+.projects {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
 }
@@ -49,10 +66,7 @@ img {
   width: 400px;
 }
 
-.about-right {
-  text-align: center;
-  padding: 50px;
-}
+
 
 p {
   text-align: center;
